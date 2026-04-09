@@ -47,7 +47,7 @@ function Modifiers() {
         onChange={(e) => setDamage(e.target.value)}
       />
 
-      <button onClick={calculateDamage}>Calculate</button>
+      <button className="button" onClick={showTip}>Show Tip</button>
 
       <p>{result}</p>
     </div>
